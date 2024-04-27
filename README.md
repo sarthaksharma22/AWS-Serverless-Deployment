@@ -3,7 +3,7 @@ configuring API Gateway to trigger Lambda functions for handling GET and POST re
 
 Here's a breakdown of project:
 
-1. Setting up an S3 Bucket**: We'll create an S3 bucket to host our static web content, including HTML, CSS, and JavaScript files.
+1. Setting up an S3 Bucket: We'll create an S3 bucket to host our static web content, including HTML, CSS, and JavaScript files.
 2. Configuring API Gateways: configure API Gateway endpoints to trigger Lambda functions. We'll cover both GET and POST methods to interact with our DynamoDB database.
 3. Creating Lambda Functions: We'll write Lambda functions in Python to handle the API Gateway requests. For example, we'll create functions to retrieve data from DynamoDB and insert new data into it.
 4. Working with DynamoDB: set up a DynamoDB table to store our data.Define the table schema and perform CRUD operations using Lambda functions.
